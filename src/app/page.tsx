@@ -1,9 +1,8 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function Home(){
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     Music learing web app
-    </main>
+    <div>
+      <h1>Music Learning Web App</h1>
+      <p>Welcome! Let's learn about music together.</p>
+    </div>
   );
 }
